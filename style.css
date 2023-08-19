@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/* font-family: 'Kdam Thmor Pro', sans-serif; */
+
+@import url('https://fonts.cdnfonts.com/css/impact');
+/* font-family: 'Impact', sans-serif; */
+
+@import url('https://fonts.cdnfonts.com/css/florent');
+/* font-family: 'Florent', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: darkgray;
+    color: white;
+}
+
+li, p, nav, span, a, .bg-transparent, .text-header, .infos-img, .imagemfundo-text {
+    background-color: transparent;
+}
+
+.paginatoda {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    /* position: sticky;
+    top: 0; */
+}
+
+.menu {
+    width: 700px;
+    display: flex; 
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+.imagemfundo {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    background-image: url('./assets/sistema-html-para-o-conceito-de-sites.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.imagemfundo-opac {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    opacity: 75%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemfundo-text {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-dw {
+    opacity: 100%;
+    font-size: 60px;
+    background-color: transparent;
+    color: white;
+    max-width: 579px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+
+    overflow: hidden;
+    border-right: 1px solid white;
+    white-space: nowrap;
+    animation:
+    typing 3.5s steps(40, end) infinite,
+    blink-caret .75s step-end infinite;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    
+}
+
+.text-am {
+    font-size: 45px;
+    margin-bottom: -250px;
+    font-family: 'Florent', sans-serif;
+}
+
+.infos {
+    height: 350px;
+    background-color: darkcyan;
+    display: flex;
+}
+
+.infos-img {
+    width: 280px;
+    height: 280px;
+    margin: 35px 90px 0px 90px;
+}
+
+.infos-p {
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 230px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+    @keyframes rtyping {
+    from { width: 100% }
+    to { width: 0 }
+    }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
