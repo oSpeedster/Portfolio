@@ -20,11 +20,11 @@ html {
     scroll-behavior: smooth;
 }
 
-li, p, nav, span, a, b, .bg-transparent, .text-header, .infos-img, .imagemfundo-text {
+li, p, nav, span, a, b, h1, .bg-transparent, .text-header, .infos-img, .imagemfundo-text {
     background-color: transparent;
 }
 
-img {
+img, .items-opc, .opc2 {
     -webkit-user-drag: none;
     user-select: none;
 }
