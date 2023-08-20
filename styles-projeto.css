@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/* font-family: 'Kdam Thmor Pro', sans-serif; */
+
+.galeria {
+    width: 100%;
+    height: 600px;
+    background-color: cyan;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.galeria-items {
+    width: 250px;
+    height: 215px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.galeria-items:hover {
+    transition: 1.2s;
+    transform: scale(1.3);
+}
+
+.galeria-items:hover .opc {
+    display: flex;
+}
+
+.galeria-items:hover .opc2 {
+    display: none;
+}
+
+.opc2 {
+    display: flex;
+
+    background: rgba(0, 0, 0, 50%);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    width: 250px;
+    height: 50px;
+    margin-top: 165px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 23px;
+}
+
+.opc {
+    display: flex;
+
+    background: rgba(0, 0, 0, 50%);
+
+
+    width: 250px;
+    height: 50px;
+    margin-top: 162px;
+    display: none;
+}
+
+.items-opc {
+    width: 125px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+#galeria-items01 {
+    background-image: url(./assets/portfolio.png);
+}
+
+#galeria-items02 {
+    background-image: url(./assets/web-player.png);
+}
+
+#galeria-items03 {
+    background-image: url(./assets/venda-ingresso.png);
+}
+
+#galeria-items04 {
+    background-image: url(./assets/pagina-login.png);
+}
+
+#galeria-items05, #galeria-items06 {
+    background-image: url(./assets/em_breve.png);
+    background-size: contain;  
+    cursor: no-drop; 
+}
+
+#galeria-items05 .items-opc, #galeria-items06 .items-opc {
+    cursor: no-drop; 
+}

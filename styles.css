@@ -16,7 +16,11 @@
     color: white;
 }
 
-li, p, nav, span, a, .bg-transparent, .text-header, .infos-img, .imagemfundo-text {
+html {
+    scroll-behavior: smooth;
+}
+
+li, p, nav, span, a, b, .bg-transparent, .text-header, .infos-img, .imagemfundo-text {
     background-color: transparent;
 }
 
@@ -126,8 +130,6 @@ img {
     align-items: center;
     flex-wrap: wrap;
 }
-
-
 
 .footer {
     width: 100%;
