@@ -11,6 +11,19 @@
 <body>
 
     <div class="paginatoda">
+
+        <div class="items-fotos" id="items-fotos">
+            <div class="divinv">
+                <div class="seta" id="seta1">&lt;</div>
+            </div>
+            <div class="items-foto">
+                <div class="foto-fechar" onclick="fecharFotos()">X</div>
+            </div>
+            <div class="divinv">
+                <div class="seta" id="seta1">></div>
+            </div>
+        </div>
+
         <header class="header bg-transparent">
             <nav>
                 <ul class="menu bg-transparent" style="justify-content: center;">
@@ -37,7 +50,7 @@
                 </div>
                 <div class="opc">
                     <div class="items-opc"><a href="https://splendorous-youtiao-7e1369.netlify.app/" target="_blank">IR PARA O SITE</a></div>
-                    <div class="items-opc">VER FOTOS</div>
+                    <div class="items-opc" onclick="fotosPortfolio()">VER FOTOS</div>
                 </div>
             </div>
             <div class="galeria-items" id="galeria-items02">
@@ -86,6 +99,8 @@
                 </div>
             </div>
         </div>
+
+        
 
         <footer class="footer">
             <span>Todos os direitos reservados ©</span>
