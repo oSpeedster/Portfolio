@@ -20,7 +20,7 @@ html {
     scroll-behavior: smooth;
 }
 
-li, p, nav, span, a, b, h1, .bg-transparent, .text-header, .infos-img, .imagemfundo-text {
+li, p, nav, span, a, b, h1, h2, h3, h4, .bg-transparent, .text-header, .infos-img, .infos-p-div, .imagemfundo-text {
     background-color: transparent;
 }
 
@@ -123,12 +123,17 @@ img, .items-opc, .opc2 {
 }
 
 .infos-p {
-    width: 500px;
-    height: 300px;
     font-size: 20px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.infos-p-div {
+    display: grid;
+    align-content: center;
+
+    margin-left: 26px;
 }
 
 .footer {

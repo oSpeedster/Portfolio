@@ -37,7 +37,7 @@
     transform: scale(1.3);
 }
 
-.galeria-items:hover .opc {
+.galeria-items:hover .opc, .galeria-items:hover .opc-div {
     display: flex;
 }
 
@@ -122,11 +122,15 @@
 
 .items-foto {
     width: 800px;
-    height: 550px;
+    /* height: 550px; */
+    height: 506px;
     background-color: gray;
 
     display: flex;
     flex-direction: row-reverse;
+
+    background-size: cover;
+    background-position: center;
 }
 
 .foto-fechar {
@@ -167,7 +171,7 @@
     background-image: url(./assets/pagina-login.png);
 }
 
-#galeria-items05, #galeria-items06 {
+#galeria-items05, #galeria-items06, #galeria-items07, #galeria-items08, #galeria-items09 {
     background-image: url(./assets/em_breve.png);
     background-size: contain;  
     cursor: no-drop; 

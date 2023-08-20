@@ -1,4 +1,7 @@
 
+.pf-p, .pf-p-div {
+    background-color: transparent;
+}
 
 
 .pf-div {
@@ -16,4 +19,18 @@
 
     background-size: cover;
     background-position: center;
+}
+
+.pf-p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pf-p-div {
+    display: grid;
+    align-content: center;
+
+    margin-left: 26px;
 }
