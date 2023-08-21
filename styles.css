@@ -20,7 +20,7 @@ html {
     scroll-behavior: smooth;
 }
 
-li, p, nav, span, a, b, h1, h2, h3, h4, .bg-transparent, .text-header, .infos-img, .infos-p-div, .imagemfundo-text {
+li, p, nav, span, a, b, h1, h2, h3, h4, .bg-transparent, .text-header, .infos-img, .infos-p-div, .imagemfundo-text, .contatos-div-img ,.contatos-img, .contato-div-imgp, .infos-p {
     background-color: transparent;
 }
 
@@ -124,9 +124,8 @@ img, .items-opc, .opc2 {
 
 .infos-p {
     font-size: 20px;
-    display: flex;
+    display: grid;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .infos-p-div {
@@ -134,6 +133,24 @@ img, .items-opc, .opc2 {
     align-content: center;
 
     margin-left: 26px;
+}
+
+.contato-div-imgp {
+    display: flex;
+}
+
+.contatos-div-img {
+    display: grid;
+    margin-top: 70px;
+}
+
+.contato-link {
+    transition: 1s;
+}
+
+.contato-link:hover {
+    color: yellow;
+    text-decoration: underline;
 }
 
 .footer {
