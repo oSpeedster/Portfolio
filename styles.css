@@ -190,7 +190,7 @@ img, .items-opc, .opc2 {
 @media(max-width: 768px) {
 
     .text-dw {
-        font-size: 34px;
+        font-size: 32px;
         max-width: 360px;
     }
 
