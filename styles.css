@@ -173,14 +173,59 @@ img, .items-opc, .opc2 {
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
+}
 
-    @keyframes rtyping {
+@keyframes rtyping {
     from { width: 100% }
     to { width: 0 }
-    }
+}
 
-  @keyframes blink-caret {
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: white; }
-  }
+}
+
+
+
+@media(max-width: 768px) {
+
+    .text-dw {
+        font-size: 37px;
+        max-width: 360px;
+    }
+
+    .text-am {
+        margin-left: 85px;
+    }
+
+    .infos {
+        height: 615px;
+        display: grid;
+        justify-items: center;
+    }
+
+    .infos-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .menu {
+        width: 350px;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria-items {
+        width: 150px;
+        height: 130px;
+    }
+
+    .opc, .opc2 {
+        margin-top: 80px;
+    }
+
+}
+
