@@ -171,13 +171,17 @@
     background-image: url(./assets/pagina-login.png);
 }
 
-#galeria-items05, #galeria-items06, #galeria-items07, #galeria-items08, #galeria-items09 {
+#galeria-items05 {
+    background-image: url(./assets/landing-page.png);
+}
+
+#galeria-items06, #galeria-items07, #galeria-items08, #galeria-items09 {
     background-image: url(./assets/em_breve.png);
     background-size: contain;  
     cursor: no-drop; 
 }
 
-#galeria-items05 .items-opc, #galeria-items06 .items-opc {
+#galeria-items06 .items-opc {
     cursor: no-drop; 
 }
 

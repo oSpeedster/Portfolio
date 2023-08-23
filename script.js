@@ -28,6 +28,13 @@ let pf4 = {
     img3: './assets/pagina-login03.png'
 }
 
+let pf5 = {
+    img0: './assets/landing-page.png',
+    img1: './assets/landing-page01.png',
+    img2: './assets/landing-page02.png',
+    img3: './assets/landing-page03.png'
+}
+
 let functionSelect = ''
 
 function select1() {
@@ -44,6 +51,10 @@ function select3() {
 
 function select4() {
     functionSelect = '4'
+}
+
+function select5() {
+    functionSelect = '5'
 }
 
 
@@ -74,6 +85,7 @@ function fecharFotos() {
     let galeriaItem02 = document.getElementById('galeria-items02')
     let galeriaItem03 = document.getElementById('galeria-items03')
     let galeriaItem04 = document.getElementById('galeria-items04')
+    let galeriaItem05 = document.getElementById('galeria-items05')
 
     itemsFotos.style.display = 'none'
     pagina.style.overflow = 'auto'
@@ -82,6 +94,7 @@ function fecharFotos() {
     galeriaItem02.className = 'galeria-items'
     galeriaItem03.className = 'galeria-items'
     galeriaItem04.className = 'galeria-items'
+    galeriaItem05.className = 'galeria-items'
 
     let numeroFoto = document.getElementById('numero-foto')
 
@@ -128,7 +141,8 @@ function verify() {
     if(functionSelect == 1) pfN = pf1 
     if(functionSelect == 2) pfN = pf2 
     if(functionSelect == 3) pfN = pf3 
-    if(functionSelect == 4) pfN = pf4 
+    if(functionSelect == 4) pfN = pf4
+    if(functionSelect == 5) pfN = pf5 
 
 
     if(numeroFoto.innerHTML == 1) {
