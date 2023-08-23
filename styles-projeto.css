@@ -180,3 +180,32 @@
 #galeria-items05 .items-opc, #galeria-items06 .items-opc {
     cursor: no-drop; 
 }
+
+
+
+@media(max-width: 768px) {
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria-items {
+        width: 150px;
+        height: 130px;
+    }
+
+    .opc, .opc2 {
+        margin-top: 80px;
+    }
+
+    .opc2 {
+        font-size: 15px;
+    }
+
+    .items-opc {
+        font-size: 10px;
+        width: 73px;
+    }
+
+}

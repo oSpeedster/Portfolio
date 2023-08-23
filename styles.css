@@ -213,19 +213,5 @@ img, .items-opc, .opc2 {
         width: 350px;
     }
 
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .galeria-items {
-        width: 150px;
-        height: 130px;
-    }
-
-    .opc, .opc2 {
-        margin-top: 80px;
-    }
-
 }
 
