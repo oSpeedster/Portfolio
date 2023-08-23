@@ -190,7 +190,7 @@ img, .items-opc, .opc2 {
 @media(max-width: 768px) {
 
     .text-dw {
-        font-size: 37px;
+        font-size: 35px;
         max-width: 360px;
     }
 
@@ -202,6 +202,10 @@ img, .items-opc, .opc2 {
         height: 615px;
         display: grid;
         justify-items: center;
+    }
+
+    .infos-p {
+        font-size: 18px;
     }
 
     .infos-img {
