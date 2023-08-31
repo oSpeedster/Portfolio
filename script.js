@@ -35,6 +35,13 @@ let pf5 = {
     img3: './assets/landing-page03.png'
 }
 
+let pf6 = {
+    img0: './assets/mcdonalds.png',
+    img1: './assets/mcdonalds01.png',
+    img2: './assets/mcdonalds02.png',
+    img3: './assets/mcdonalds03.png'
+}
+
 let functionSelect = ''
 
 function select1() {
@@ -55,6 +62,10 @@ function select4() {
 
 function select5() {
     functionSelect = '5'
+}
+
+function select6() {
+    functionSelect = '6'
 }
 
 
@@ -86,6 +97,7 @@ function fecharFotos() {
     let galeriaItem03 = document.getElementById('galeria-items03')
     let galeriaItem04 = document.getElementById('galeria-items04')
     let galeriaItem05 = document.getElementById('galeria-items05')
+    let galeriaItem06 = document.getElementById('galeria-items06')
 
     itemsFotos.style.display = 'none'
     pagina.style.overflow = 'auto'
@@ -95,6 +107,7 @@ function fecharFotos() {
     galeriaItem03.className = 'galeria-items'
     galeriaItem04.className = 'galeria-items'
     galeriaItem05.className = 'galeria-items'
+    galeriaItem06.className = 'galeria-items'
 
     let numeroFoto = document.getElementById('numero-foto')
 
@@ -143,6 +156,7 @@ function verify() {
     if(functionSelect == 3) pfN = pf3 
     if(functionSelect == 4) pfN = pf4
     if(functionSelect == 5) pfN = pf5 
+    if(functionSelect == 6) pfN = pf6 
 
 
     if(numeroFoto.innerHTML == 1) {

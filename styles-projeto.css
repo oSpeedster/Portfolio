@@ -175,13 +175,17 @@
     background-image: url(./assets/landing-page.png);
 }
 
-#galeria-items06, #galeria-items07, #galeria-items08, #galeria-items09 {
+#galeria-items06 {
+    background-image: url(./assets/mcdonalds.png);
+}
+
+#galeria-items07, #galeria-items08, #galeria-items09 {
     background-image: url(./assets/em_breve.png);
     background-size: contain;  
     cursor: no-drop; 
 }
 
-#galeria-items06 .items-opc {
+#galeria-items07 .items-opc {
     cursor: no-drop; 
 }
 
